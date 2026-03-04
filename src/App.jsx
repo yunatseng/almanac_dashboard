@@ -181,7 +181,7 @@ export default function App() {
 
   useEffect(() => {
     // 嘗試從 almanac.json 讀取真實資料
-    fetch("/almanac.json")
+    fetch(`${import.meta.env.BASE_URL}almanac.json`)
       .then((res) => {
         if (!res.ok) throw new Error("fetch failed");
         return res.json();
