@@ -48,7 +48,7 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Update almanac data - $(date)"
-            git pull --rebase -Xtheirs origin main
+            git pull --rebase --autostash -Xtheirs origin main
             git push
           fi
 
