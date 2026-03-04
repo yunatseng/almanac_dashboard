@@ -1,16 +1,40 @@
-# React + Vite
+# 七日歲次總覽
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+根據我自身的喜忌來顯示未來七天的黃曆月柱、日柱。
 
-Currently, two official plugins are available:
+## 功能
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 七天卡片式排版，自動標記今日（台灣時間）
+- 依干支組合根據自身喜忌分級標色
+- 資料來源為：`calendar.8s8s.net`，無資料時自動退回 Mock 資料
 
-## React Compiler
+## 開發
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+npm install
+npm run dev
+```
 
-## Expanding the ESLint configuration
+更新黃曆資料（寫入 `public/almanac.json`）：
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+node scripts/fetch-almanac.js
+```
+
+## 部署
+
+```bash
+npm run build
+bash scripts/prepare-deploy.sh  # 將 almanac.json 複製至 dist/
+```
+
+將 `dist/` 部署至 GitHub Pages 或任何靜態主機。
+
+## Acknowledgments
+
+- 黃曆資料來源：[calendar.8s8s.net](https://calendar.8s8s.net)
+- UI 字型：[Noto Sans TC](https://fonts.google.com/noto/specimen/Noto+Sans+TC)、[Source Serif 4](https://fonts.google.com/specimen/Source+Serif+4)（Google Fonts）
+
+## License
+
+MIT
