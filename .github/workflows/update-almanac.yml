@@ -37,7 +37,7 @@ jobs:
         run: npm run build
 
       - name: Prepare deployment files
-        run: ./scripts/prepare-deploy.sh
+        run: chmod +x ./scripts/prepare-deploy.sh && ./scripts/prepare-deploy.sh
 
       - name: Commit updated almanac.json
         run: |
