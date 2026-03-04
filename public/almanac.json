@@ -1,0 +1,102 @@
+{
+  "days": [
+    {
+      "date": "2026/3/5",
+      "year": 2026,
+      "month": 3,
+      "day": 5,
+      "weekday": "四",
+      "lunarDate": "二零二六年 正月(大) 十七",
+      "monthPillar": "辛卯",
+      "dayPillar": "戊寅",
+      "yearPillar": "丙午",
+      "rawSuiCi": "丙午年 辛卯月 戊寅日",
+      "fetchedAt": "2026-03-04T18:33:52.715Z"
+    },
+    {
+      "date": "2026/3/6",
+      "year": 2026,
+      "month": 3,
+      "day": 6,
+      "weekday": "五",
+      "lunarDate": "二零二六年 正月(大) 十八",
+      "monthPillar": "辛卯",
+      "dayPillar": "己卯",
+      "yearPillar": "丙午",
+      "rawSuiCi": "丙午年 辛卯月 己卯日",
+      "fetchedAt": "2026-03-04T18:33:53.869Z"
+    },
+    {
+      "date": "2026/3/7",
+      "year": 2026,
+      "month": 3,
+      "day": 7,
+      "weekday": "六",
+      "lunarDate": "二零二六年 正月(大) 十九",
+      "monthPillar": "辛卯",
+      "dayPillar": "庚辰",
+      "yearPillar": "丙午",
+      "rawSuiCi": "丙午年 辛卯月 庚辰日",
+      "fetchedAt": "2026-03-04T18:33:55.075Z"
+    },
+    {
+      "date": "2026/3/8",
+      "year": 2026,
+      "month": 3,
+      "day": 8,
+      "weekday": "日",
+      "lunarDate": "二零二六年 正月(大) 二十",
+      "monthPillar": "辛卯",
+      "dayPillar": "辛巳",
+      "yearPillar": "丙午",
+      "rawSuiCi": "丙午年 辛卯月 辛巳日",
+      "fetchedAt": "2026-03-04T18:33:56.360Z"
+    },
+    {
+      "date": "2026/3/9",
+      "year": 2026,
+      "month": 3,
+      "day": 9,
+      "weekday": "一",
+      "lunarDate": "二零二六年 正月(大) 廿一",
+      "monthPillar": "辛卯",
+      "dayPillar": "壬午",
+      "yearPillar": "丙午",
+      "rawSuiCi": "丙午年 辛卯月 壬午日",
+      "fetchedAt": "2026-03-04T18:33:57.654Z"
+    },
+    {
+      "date": "2026/3/10",
+      "year": 2026,
+      "month": 3,
+      "day": 10,
+      "weekday": "二",
+      "lunarDate": "二零二六年 正月(大) 廿二",
+      "monthPillar": "辛卯",
+      "dayPillar": "癸未",
+      "yearPillar": "丙午",
+      "rawSuiCi": "丙午年 辛卯月 癸未日",
+      "fetchedAt": "2026-03-04T18:33:58.904Z"
+    },
+    {
+      "date": "2026/3/11",
+      "year": 2026,
+      "month": 3,
+      "day": 11,
+      "weekday": "三",
+      "lunarDate": "二零二六年 正月(大) 廿三",
+      "monthPillar": "辛卯",
+      "dayPillar": "甲申",
+      "yearPillar": "丙午",
+      "rawSuiCi": "丙午年 辛卯月 甲申日",
+      "fetchedAt": "2026-03-04T18:34:00.113Z"
+    }
+  ],
+  "metadata": {
+    "totalDays": 7,
+    "startDate": "2026-03-04",
+    "endDate": "2026-03-10",
+    "lastUpdated": "2026-03-04T18:34:01.115Z",
+    "errors": []
+  }
+}
