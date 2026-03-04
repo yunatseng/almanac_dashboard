@@ -2,14 +2,14 @@ name: Update Almanac Data
 
 on:
   schedule:
-    # 每天早上 0:00 UTC (台灣時間早上 8:00) 執行
+    # 每天早上 8:00 UTC 執行
     - cron: "0 0 * * *"
   workflow_dispatch: # 允許手動觸發
   push:
     branches: [main, master]
 
 jobs:
-  update-almanac:
+  update-models:
     runs-on: ubuntu-latest
 
     permissions:
@@ -37,13 +37,13 @@ jobs:
         run: npm run build
 
       - name: Prepare deployment files
-        run: chmod +x ./scripts/prepare-deploy.sh && ./scripts/prepare-deploy.sh
+        run: ./scripts/prepare-deploy.sh
 
       - name: Commit updated almanac.json
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add public/almanac.json
+          git add public/models.json
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
