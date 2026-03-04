@@ -222,10 +222,10 @@ export default function App() {
       {/* Header */}
       <div style={{ textAlign: "center", marginBottom: "2rem", animation: "fadeSlideUp 0.5s ease both" }}>
         <h1 style={{ fontSize: "1.6rem", fontWeight: 300, color: "#e2e8f0", letterSpacing: "0.15em", margin: 0, fontFamily: "'Source Serif 4', serif" }}>
-          七日歲次總覽
+          流月流日總覽
         </h1>
         <p style={{ fontSize: "0.8rem", color: "#475569", marginTop: "0.5rem", letterSpacing: "0.08em" }}>
-          辛酉警戒監測
+          每日運勢參考
         </p>
       </div>
 
