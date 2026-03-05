@@ -119,9 +119,11 @@ async function fetchAlmanac() {
   const twNow = new Date(now.getTime() + (twOffset + localOffset) * 60 * 1000);
 
   const today = new Date(twNow.getFullYear(), twNow.getMonth(), twNow.getDate());
-  const dates = getDateRange(today, 7);
+  const lastDayOfMonth = new Date(today.getFullYear(), today.getMonth() + 1, 0).getDate();
+  const daysLeft = lastDayOfMonth - today.getDate() + 1;
+  const dates = getDateRange(today, daysLeft);
 
-  console.log(`📅 抓取範圍: ${dates[0].toISOString().slice(0, 10)} ~ ${dates[6].toISOString().slice(0, 10)}`);
+  console.log(`📅 抓取範圍: ${dates[0].toISOString().slice(0, 10)} ~ ${dates[dates.length - 1].toISOString().slice(0, 10)} (共 ${daysLeft} 天)`);
 
   const results = [];
   const errors = [];
@@ -171,7 +173,7 @@ async function fetchAlmanac() {
     metadata: {
       totalDays: results.length,
       startDate: dates[0].toISOString().slice(0, 10),
-      endDate: dates[6].toISOString().slice(0, 10),
+      endDate: dates[dates.length - 1].toISOString().slice(0, 10),
       lastUpdated: new Date().toISOString(),
       errors: errors
     }

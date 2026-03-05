@@ -22,7 +22,7 @@ function classifyPillar(pillar) {
     const otherChar = [c1, c2][otherIdx];
     const alertChar = [c1, c2][alertIdx];
 
-    let otherColor = "pink"; // 預設粉紅
+    let otherColor = "default";
     if (FIRE_CHARS.has(otherChar)) otherColor = "orange";
     else if (WATER_CHARS.has(otherChar)) otherColor = "purple";
 
