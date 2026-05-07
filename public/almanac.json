@@ -1,19 +1,6 @@
 {
   "days": [
     {
-      "date": "2026/5/6",
-      "year": 2026,
-      "month": 5,
-      "day": 6,
-      "weekday": "三",
-      "lunarDate": "二零二六年 三月(大) 二十",
-      "monthPillar": "癸巳",
-      "dayPillar": "庚辰",
-      "yearPillar": "丙午",
-      "rawSuiCi": "丙午年 癸巳月 庚辰日",
-      "fetchedAt": "2026-05-01T00:41:28.867Z"
-    },
-    {
       "date": "2026/5/7",
       "year": 2026,
       "month": 5,
@@ -340,10 +327,10 @@
     }
   ],
   "metadata": {
-    "totalDays": 26,
-    "startDate": "2026-05-06",
+    "totalDays": 25,
+    "startDate": "2026-05-07",
     "endDate": "2026-05-31",
-    "lastUpdated": "2026-05-06T00:36:09.534Z",
+    "lastUpdated": "2026-05-07T00:38:14.701Z",
     "errors": []
   }
 }
