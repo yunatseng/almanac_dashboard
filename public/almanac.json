@@ -1,19 +1,6 @@
 {
   "days": [
     {
-      "date": "2026/9/12",
-      "year": 2026,
-      "month": 9,
-      "day": 12,
-      "weekday": "六",
-      "lunarDate": "二零二六年 八月(小) 初二",
-      "monthPillar": "丁酉",
-      "dayPillar": "己丑",
-      "yearPillar": "丙午",
-      "rawSuiCi": "丙午年 丁酉月 己丑日",
-      "fetchedAt": "2026-09-01T03:26:37.235Z"
-    },
-    {
       "date": "2026/9/13",
       "year": 2026,
       "month": 9,
@@ -249,10 +236,10 @@
     }
   ],
   "metadata": {
-    "totalDays": 19,
-    "startDate": "2026-09-12",
+    "totalDays": 18,
+    "startDate": "2026-09-13",
     "endDate": "2026-09-30",
-    "lastUpdated": "2026-09-12T02:59:55.136Z",
+    "lastUpdated": "2026-09-13T03:00:21.327Z",
     "errors": []
   }
 }
