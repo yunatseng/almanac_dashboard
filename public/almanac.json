@@ -1,19 +1,6 @@
 {
   "days": [
     {
-      "date": "2026/10/15",
-      "year": 2026,
-      "month": 10,
-      "day": 15,
-      "weekday": "四",
-      "lunarDate": "二零二六年 九月(大) 初六",
-      "monthPillar": "戊戌",
-      "dayPillar": "壬戌",
-      "yearPillar": "丙午",
-      "rawSuiCi": "丙午年 戊戌月 壬戌日",
-      "fetchedAt": "2026-10-01T04:00:35.975Z"
-    },
-    {
       "date": "2026/10/16",
       "year": 2026,
       "month": 10,
@@ -223,10 +210,10 @@
     }
   ],
   "metadata": {
-    "totalDays": 17,
-    "startDate": "2026-10-15",
+    "totalDays": 16,
+    "startDate": "2026-10-16",
     "endDate": "2026-10-31",
-    "lastUpdated": "2026-10-15T03:04:25.182Z",
+    "lastUpdated": "2026-10-16T03:01:07.403Z",
     "errors": []
   }
 }
