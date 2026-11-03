@@ -1,19 +1,6 @@
 {
   "days": [
     {
-      "date": "2026/11/2",
-      "year": 2026,
-      "month": 11,
-      "day": 2,
-      "weekday": "一",
-      "lunarDate": "二零二六年 九月(大) 廿四",
-      "monthPillar": "戊戌",
-      "dayPillar": "庚辰",
-      "yearPillar": "丙午",
-      "rawSuiCi": "丙午年 戊戌月 庚辰日",
-      "fetchedAt": "2026-11-01T04:12:30.536Z"
-    },
-    {
       "date": "2026/11/3",
       "year": 2026,
       "month": 11,
@@ -379,10 +366,10 @@
     }
   ],
   "metadata": {
-    "totalDays": 29,
-    "startDate": "2026-11-02",
+    "totalDays": 28,
+    "startDate": "2026-11-03",
     "endDate": "2026-11-30",
-    "lastUpdated": "2026-11-02T04:15:39.330Z",
+    "lastUpdated": "2026-11-03T05:14:04.328Z",
     "errors": []
   }
 }
